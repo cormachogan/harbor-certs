@@ -32,7 +32,7 @@ echo "-- Step 0: Checking dependencies ..."
 check_deps
 
 echo
-echo "Type in the fully qualified domain name of the harbor registry (e.g. harbor.vmware.com): \c"
+echo "Type in the fully qualified domain name of the harbor registry (e.g. harbor.vmware.com): "
 read fqdn
 
 if [ -z "$fqdn" ]
